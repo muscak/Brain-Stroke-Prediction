@@ -6,7 +6,7 @@ We checked the [data](https://github.com/muscak/Brain-Stroke-Prediction/tree/mai
   <img src='images/imbalanced.png' align='center' height=300>
 </p>
 
-After removing the outliers and checking the distribution of the numerical features, we used `RandomUnderSampler` function of `imblearn` library with 0.5 `sampling_strategy` to make the labels more balanced. We checked the performance of Support Vector Classifier (SVC), Decision Tree Classifier (DTC), $k$-Nearest Neighbor ($k$NN), Linear Discrimenant Analyses (LDA) and Gaussian Naive Bayes (GNB) algorthims with the given dataset by using 10 $k$-fold cross validation. We preferred stratified strategy as the dataset was in imbalanced state.
+After removing the outliers and checking the distribution of the numerical features, we used `RandomUnderSampler` function of `imblearn` library with 0.5 `sampling_strategy` to make the labels more balanced. We checked the performance of Support Vector Classifier (SVC), Decision Tree Classifier (DTC), $k$-Nearest Neighbor ($k$-NN), Linear Discrimenant Analyses (LDA) and Gaussian Naive Bayes (GNB) algorthims with the given dataset by using 10 $k$-fold cross validation. We preferred stratified strategy as the dataset was in imbalanced state.
 
 <p align='center' >
   <img src='images/under_sampling_perf.png' align='center' height=300>
