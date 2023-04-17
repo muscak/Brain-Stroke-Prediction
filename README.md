@@ -20,6 +20,4 @@ As as next step, we over sampled the data using `SMOTE` function of `imblearn` l
   <img src='images/over_sampling_perf.png' align='center' height=300>
 </p>
 
-As you can see from the above image, now DTC provides the best mean accuracy score %91.9 with the lowest standard devidation of 0.1%. This also showed that the amount of the data wasn't enough in the under sampled model to train the algorithms properly.
-
-After preparing the data, we'll evaluate the performance of different algorithms and tune the hyperparameters of the one which is the most promissing. Finally we'll perform a prediction on the test data to check the overall performance of the chosen algorithm.
+As you can see from the above image, now DTC provides the best mean accuracy score %91.9 with the lowest standard devidation of 0.1%. This also showed that the amount of the data wasn't enough in the under sampled model to train the algorithms properly. The prediction accuracy with the train model was **83.1%**
