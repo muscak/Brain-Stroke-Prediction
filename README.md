@@ -5,11 +5,13 @@ We checked the [data](https://github.com/muscak/Brain-Stroke-Prediction/tree/mai
 <p>
   <img src='images/imbalanced.png' align='center' height=300>
 </p>
-<p></p>
+
+
 After removing the outliers and checking the distribution of the numerical features, we used `RandomUnderSampler` function of `imblearn` library with 0.5 `sampling_strategy` to make the labels more balanced. We checked the performance of Support Vector Classifier, Decision Tree Classifier, $k$-Nearest Neighbor, Linear Discrimenant Analyses and Gaussian Naive Bayes algorthims with the given dataset.
+
 <p>
   <img src='images/under_sampling_perf.png' align='center' height=300>
 </p>
-<p></p>
+
 
 After preparing the data, we'll evaluate the performance of different algorithms and tune the hyperparameters of the one which is the most promissing. Finally we'll perform a prediction on the test data to check the overall performance of the chosen algorithm.
