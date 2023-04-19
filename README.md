@@ -1,5 +1,5 @@
 # Brain Stroke Prediction
-This is basically a classification problem. The aim of this study is to check how well it can be predicted if patient will have barin stroke based on the available health data such as glucose level, age, gender etc.
+A stroke is a medical condition in which poor blood flow to the brain causes cell death [1]. This is basically a classification problem. The aim of this study is to check how well it can be predicted if patient will have barin stroke based on the available health data such as glucose level, age, gender etc.
 
 We checked the [data](https://github.com/muscak/Brain-Stroke-Prediction/tree/main/Data) and performed some explanotary data analysis first, then processed the data as needed. Fortunately there was no Null values in any of the features. One of the major challenges that we faced was that the data was imbalaced. The ratio of the people who had no stroke was 96.30% and the people who had stroke was 3.70%. The gap between these two classes was huge. 
 <p align='center' >
@@ -21,3 +21,6 @@ As as next step, we over sampled the data using `SMOTE` function of `imblearn` l
 </p>
 
 As you can see from the above image, now DTC provides the best mean accuracy score %91.9 with the lowest standard devidation of 0.1%. This also showed that the amount of the data wasn't enough in the under sampled model to train the algorithms properly. The prediction accuracy with the train model was **83.1%**
+
+## References
+[1] [Stroke](https://en.wikipedia.org/wiki/Stroke)
