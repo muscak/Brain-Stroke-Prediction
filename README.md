@@ -3,7 +3,7 @@ A stroke is a medical condition in which poor blood flow to the brain causes cel
 
 We checked the [data](https://github.com/muscak/Brain-Stroke-Prediction/tree/main/Data) and performed some explanotary data analysis first, then processed the data as needed. Fortunately there was no `Null` values in any of the features. One of the major challenges that we faced was that the data was imbalaced. The ratio of the people who had no stroke was 96.30% and the people who had stroke was 3.70%. The gap between these two classes was huge. 
 <p align='center' >
-  <img src='Images/target.png' align='center' height=300>
+  <img src='images/target.png' align='center' height=300>
 </p>
 
 Since the false negatives (*predicting someone as won't have stroke but he/she has it*) is far dangerous than false negatives (*predicting someone as he/she will have stroke but he/she hasn't it*) it's better to try to maximize the **Recall**.
