@@ -42,7 +42,7 @@ As you can see from the above image, now KNN provides the best mean Recall score
 
 We decided to continue with the GNB with under-sampled dataset for hyperparameter tuning. 
 
-After tuning the hyperparameters of GNB we managed to achieve 0.71 Recall score. There are still some room for the improvement. We can enrich the dataset by collecting some other data points from other patients or adding extra feature such as weekly alcohol consumption, stroke history in the family, diet habits etc. Apart from enriching the dataset, we can also utilize the other algorithms such as XGBoosting.S
+After tuning the hyperparameters of GNB we managed to achieve 0.71 Recall score. There are still some room for the improvement. We can enrich the dataset by collecting some other data points from other patients or adding extra feature such as weekly alcohol consumption, stroke history in the family, diet habits etc. Apart from enriching the dataset, we can also utilize the other algorithms such as XGBoosting.
 
 ## References
 [1] [Stroke](https://en.wikipedia.org/wiki/Stroke)
